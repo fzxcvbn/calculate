@@ -1,0 +1,96 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Светло-серый фон */
+}
+
+.container {
+    width: 400px; /* Задаем ширину для контейнера */
+    padding: 20px;
+    background-color: #ffffff; /* Белый фон */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.address-form {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f9f9f9; /* Фон для блока формы */
+    border-radius: 6px;
+}
+.form-group{
+   display: flex;
+   flex-direction: column;
+   gap:10px;
+}
+.input-wrapper {
+    display: flex;
+    align-items: center;
+     background-color: white;
+     border-radius: 4px;
+     padding: 5px;
+     border: 1px solid #ddd;
+}
+
+.input-wrapper img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.input-wrapper input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    flex-grow: 1;
+}
+.select-wrapper {
+ display: flex;
+ align-items: center;
+ gap: 5px;
+}
+.select-wrapper select {
+    padding: 5px;
+     border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+    background-color: white;
+}
+.phone-input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.add-address-btn {
+    padding: 10px 15px;
+    background-color: #5cb85c; /* Зеленый цвет кнопки */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.add-address-btn:hover {
+    background-color: #4cae4c; /* Более темный зеленый при наведении */
+}

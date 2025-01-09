@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Калькулятор</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+</head>
+<body>
+    <div class="calculate-main-conteiner-font-family">
+        <h1 class="calculate-h1">Расчет и оформление доставки</h1>
+        <h3 class="calculate-h3">Машина</h3>
+        <div class="calculate-types-cars">
+            <div class="calculate-type-cars">
+                <img height="70px" src="Каблук.webp" alt="Каблук">
+                <p class="calculate-p-type-cars"><span class="calculate-span-p-type-cars">Каблук</span><br>0,5 т</p>
+            </div>
+            <div class="calculate-type-cars">
+                <img height="70px" src="Портер.jpg" alt="Портер">
+                <p class="calculate-p-type-cars"><span class="calculate-span-p-type-cars">Портер</span><br>1 т</p>
+            </div>
+            <div class="calculate-type-cars">
+                <img height="70px" src="Газель.png" alt="Газель">
+                <p class="calculate-p-type-cars"><span class="calculate-span-p-type-cars">Газель</span><br>1,5 т</p>
+            </div>
+            <div class="calculate-type-cars">
+                <img height="70px" src="Грузовик_3т.jpg" alt="Грузовик 3 тонн">
+                <p class="calculate-p-type-cars"><span class="calculate-span-p-type-cars">Грузовик</span><br>3 т</p>
+            </div>
+            <div class="calculate-type-cars">
+                <img height="70px" src="Грузовик_5т.jpg" alt="Грузовик 5 тонн">
+                <p class="calculate-p-type-cars"><span class="calculate-span-p-type-cars">Грузовик</span><br>5 т</p>
+            </div>
+            <div class="calculate-type-cars">
+                <img height="70px" src="Грузовик_10т.webp" alt="Грузовик 10 тонн">
+                <p class="calculate-p-type-cars"><span class="calculate-span-p-type-cars">Грузовик</span><br>10 т</p>
+            </div>
+            <div class="calculate-type-cars">
+                <img height="70px" src="Фура.jpg" alt="Фура">
+                <p class="calculate-p-type-cars"><span class="calculate-span-p-type-cars">Фура</span><br>20 т</p>
+            </div>
+        </div>
+        <h3 class="calculate-h3">Адрес</h3>
+        <div class="calculate-border-left-from-where">
+            <h2 class="calculate-h2">Откуда</h2>
+            <div class="address-form">
+                <div class="form-group">
+                    <div class="input-wrapper">
+                        <img height="35px" src="Карта.png" alt="Карта">
+                        <input class="calculate-from-where-input" type="text" placeholder="Откуда">
+                    </div>
+                    <div class="select-wrapper">
+                        <input type="date">
+                        <span>c</span>
+                        <input type="time">
+                        <span>до</span>
+                        <input type="time">
+                        <input class="calculate-telephone" type="tel" class="phone-input" placeholder="+7 ___ ___ __ __">
+                    </div>
+                </div>
+            </div>
+            <h2 class="calculate-h2">Куда</h2>
+            <div class="address-form">
+                <div class="form-group">
+                    <div class="input-wrapper">
+                        <img height="35px" src="Карта.png" alt="Карта">
+                        <input class="calculate-from-where-input" type="text" placeholder="Куда">
+                    </div>
+                    <div class="select-wrapper">
+                        <input type="date">
+                        <span>c</span>
+                        <input type="time">
+                        <span>до</span>
+                        <input type="time">
+                        <input class="calculate-telephone" type="tel" class="phone-input" placeholder="+7 ___ ___ __ __">
+                    </div>
+                </div>
+            </div>
+            <button class="add-address">Добавить адрес</button>
+        </div>
+        <h3 class="calculate-h3">Груз</h3>
+        <div class="calculate-background-cargo">
+            <h2 class="calculate-h2">Что везем</h2>
+            <input type="text" placeholder="Что везем">
+            <div class="calculate-list-cargo">
+                <p class="calculate-element-list-cargo">Документы</p>
+                <p class="calculate-element-list-cargo">Продукты</p>
+                <p class="calculate-element-list-cargo">Еда</p>
+                <p class="calculate-element-list-cargo">Цветы</p>
+                <p class="calculate-element-list-cargo">Подарок</p>
+                <p class="calculate-element-list-cargo">Другое</p>
+            </div>
+            <input type="text" placeholder="Габариты">
+        </div>
+        <div class="calculate-conteiner-result">
+            <h1 class="calculate-h1-result">Итого:</h1>
+            <input type="submit" value="Отправить заказ">
+            <p class="calculate-p-result">Параметры смс-уведомлений для вас и получателей можно настроить  после подтверждения заказа</p>
+        </div>
+    </div>
+</body>
+</html>
